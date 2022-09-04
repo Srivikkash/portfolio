@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Srivikkash Gopinath Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        </div>
+        
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='image/photo.jpg'/>
+        <div class='herosectionDetails'>
+          <h1>Srivikkash Gopinath</h1>
+          <h3>Full-Stack Developer</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>Who am I</h1>
+        <p>I am Srivikkash Gopinath, Student of Bishop Heber College at Computer Science.
+           I want learn new things every day.
+           I done Some prototype for a private shop like  <b><i>Billing Desktop application</i></b> by using python,
+          <b><i>Pre-Ordering site</i></b> by using PHP and a live site for a <b><i>Bridal artist</i></b> by using WordPress frame work. 
+
+        </p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='PYTHON' src='./image/py1.svg'>
+          <img title='HTML' src='./image/html.svg'>
+          <img title='CSS' src='./image/css1.svg'>
+          <img title='PHP' src='./image/php1.svg'>
+          <img title="wordpress" src="./image/wordpress.svg">
+          
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='./image/wordpress.svg'/>
+            <div class='projectDescription'>
+              <h4>Kirutgopi Bridals</h4>
+              <p>This is a private site for a bridal artist that has been live.<br> 
+                This site has been created by using  Word press frame work.
+                <u><a href="http://kirutgopibridals.unaux.com/" target="_blank">Kirutgopi Bridals</a></u>
+              </p>
+                
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='./image/py1.svg'/>
+            <div class='projectDescription'>
+              <h4>Billing Desktop application</h4>
+              <p>This is a private application prototype for Billing purpose.<br>
+                 This prototype has been created by using python (tkinter) library.
+                 <u><a href="https://github.com/Srivikkash/milk_biller" target="_blank">Billing Desktop application</a></u>
+              </p>
+            </div>
+          </div>
+
+          <div class='projectContainer'>
+            <img src='./image/php1.svg'/>
+            <div class='projectDescription'>
+              <h4>Pre-Ordering Site</h4>
+              <p>This is a private Site prototype for Pre-Ordering things.<br>
+                 This prototype has been created by using HTML,CSS and PHP XAMPP used as my server in my local DataBase.
+                 <u><a href="https://github.com/Srivikkash/GKmilk-Order_page" target="_blank">Pre-Ordering Site</a></u>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2><hr><br>
+        <div class='formGroup'>
+          <label for='name'>Professional Mail</label><br/>
+          <a href="mailto:vikkassri@gmail.com" style="text-decoration:none;">Mail me</a>
+        </div>
+
+        <div class='formGroup'>
+          <label for='name'>Personal Mail</label><br/>
+          <a href="mailto:vikkash0143@gmail.com" style="text-decoration:none;">Mail me</a>
+        </div>
+
+        <div class='formGroup'>
+          <label for='name'>Whatsapp</label><br/>
+          <a href="https://wa.me/919360305239" style="text-decoration:none;">Whatsapp me</a>
+        </div>
+        
+      </section>
+    </main>
+        
+    <script src="script.js"></script>
+  </body>
+</html>
